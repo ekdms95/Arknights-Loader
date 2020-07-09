@@ -1,0 +1,6 @@
+﻿cl : command line warning D9025: overriding '/sdl-' with '/GS-'
+  main.cpp
+  Generating code
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  Finished generating code
+  loader.vcxproj -> D:\Loader\loader2\build\final\Release\loader.exe

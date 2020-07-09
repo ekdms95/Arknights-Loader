@@ -1,0 +1,95 @@
+.no-margin {
+  margin: 0 !important; }
+
+.marginbottom__3x {
+  margin-bottom: 30px; }
+
+@-webkit-keyframes animLoadedLogo {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1); } }
+@keyframes animLoadedLogo {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1);
+    transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1); } }
+@-webkit-keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1); } }
+@keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+    transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1); } }
+@-webkit-keyframes animLoadedHeader {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0); } }
+@keyframes animLoadedHeader {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+@-webkit-keyframes animInitialHeader {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 800px, 0); } }
+@keyframes animInitialHeader {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 800px, 0);
+    transform: translate3d(0, 800px, 0); } }
+.footer-top {
+  padding: 100px 0 60px 0;
+  color: #cccccc;
+  background: #242424; }
+  .footer-top li {
+    padding: 10px 0; }
+    .footer-top li a {
+      color: #cccccc;
+      transition: padding 0.3s ease-in-out; }
+      .footer-top li a:hover {
+        padding-left: 5px; }
+  .footer-top h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .footer-top span {
+    margin-right: 10px;
+    color: #fff; }
+
+.footer-mid {
+  background: #1e1e1e;
+  padding: 30px 0; }
+  .footer-mid .social h3 {
+    text-transform: uppercase;
+    color: #fff;
+    float: left; }
+  .footer-mid .social ul {
+    margin: 0;
+    padding: 0;
+    float: right; }
+    .footer-mid .social ul li {
+      display: inline-block;
+      margin: 5px; }
+      .footer-mid .social ul li a {
+        width: 120px;
+        background: #242424;
+        border: 1px solid #353535;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+        display: block; }
+
+.footer-bot {
+  padding: 30px 0 30px 0;
+  background: #222222;
+  border-top: 1px dashed; }
+  .footer-bot .text-footer-bot p {
+    line-height: 32px;
+    margin: 0;
+    color: #fff; }
+  .footer-bot .pay img {
+    float: right; }
+
+@media (max-width: 767px) {
+  .footer-top {
+    padding: 60px 0; } }

@@ -1,0 +1,14 @@
+.newcheat {color:#00cc00 !important}
+.buycheatbutton {background-color: #00cc00;padding: 10px;}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+#my-row {
+   display: table;
+    table-layout: fixed;
+}
+
+.frozencheat img {opacity: 0.2;}
+.frozencheat h1 a {color:gray !important;}

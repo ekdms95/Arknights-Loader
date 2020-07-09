@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu\ImGui\imgui.cpp" />
+    <ClCompile Include="menu\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="menu\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="encrypt-decrypt\encrypt-decrypt.cpp" />
+    <ClCompile Include="utilities\utilities.cpp" />
+    <ClCompile Include="client\client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\xorstr.hpp" />
+    <ClInclude Include="menu\registrywindow.hpp" />
+    <ClInclude Include="menu\ImGui\imconfig.h" />
+    <ClInclude Include="menu\ImGui\imgui.h" />
+    <ClInclude Include="menu\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="menu\ImGui\imgui_internal.h" />
+    <ClInclude Include="menu\ImGui\stb_rect_pack.h" />
+    <ClInclude Include="menu\ImGui\stb_textedit.h" />
+    <ClInclude Include="menu\ImGui\stb_truetype.h" />
+    <ClInclude Include="menu\resources\font.hpp" />
+    <ClInclude Include="encrypt-decrypt\md5.hpp" />
+    <ClInclude Include="encrypt-decrypt\xorstr.hpp" />
+    <ClInclude Include="encrypt-decrypt\encrypt-decrypt.hpp" />
+    <ClInclude Include="utilities\lazy_importer.hpp" />
+    <ClInclude Include="utilities\utilities.hpp" />
+    <ClInclude Include="globals.hpp" />
+    <ClInclude Include="client\client.hpp" />
+    <ClInclude Include="menu\resources\apexbackground.hpp" />
+    <ClInclude Include="menu\resources\user.hpp" />
+    <ClInclude Include="resources\cheat_stub.hpp" />
+    <ClInclude Include="resources\inject_stub.hpp" />
+    <ClInclude Include="utils\control.hpp" />
+    <ClInclude Include="utils\injector.hpp" />
+    <ClInclude Include="resources\intel_stub.hpp" />
+    <ClInclude Include="utils\utils.hpp" />
+  </ItemGroup>
+</Project>
